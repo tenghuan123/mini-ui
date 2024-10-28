@@ -1,0 +1,27 @@
+{
+  "name": "@repo/config-tailwind",
+  "version": "0.0.1",
+  "private": true,
+  "exports": {
+    ".": "./tailwind.config.ts"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "workspace:*",
+    "tailwindcss": "^3.4.14",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "tsup": {
+    "entry": [
+      "./tailwind.config.ts"
+    ],
+    "format": [
+      "esm"
+    ],
+    "splitting": false,
+    "clean": true,
+    "sourcemap": true
+  }
+}

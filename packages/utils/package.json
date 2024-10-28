@@ -1,0 +1,24 @@
+{
+  "name": "@mini-ui/utils",
+  "version": "0.0.0",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "dependencies": {
+    "@repo/typescript-config": "workspace:*",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.5.4"
+  },
+  "tsup": {
+    "entry": [
+      "./src/index.ts"
+    ],
+    "format": ["esm"],
+    "splitting": false,
+    "clean": true,
+    "sourcemap": true
+  }
+}
