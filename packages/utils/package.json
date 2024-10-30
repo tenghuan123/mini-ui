@@ -1,6 +1,6 @@
 {
   "name": "@mini-ui/utils",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "exports": {
     ".": "./src/index.ts"
   },
@@ -16,7 +16,9 @@
     "entry": [
       "./src/index.ts"
     ],
-    "format": ["esm"],
+    "format": [
+      "esm"
+    ],
     "splitting": false,
     "clean": true,
     "sourcemap": true
