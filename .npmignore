@@ -1,0 +1,12 @@
+node_modules/
+apps/
+packages/
+.turbo/
+.changesets/
+.env
+packages/eslint-config/
+.vscode/
+.eslintrc.js
+.prettierrc.js
+.prettierignore
+.gitignore
